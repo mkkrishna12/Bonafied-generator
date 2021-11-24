@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Faculty Management</title>
+
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+
+    <div style="align-content: center; margin-left: 23em;">
+        <nav style="display: flex;align-items: center; font-size: 20px;">
+            <ul><a href="./../index.html" target="">WCE Sangli</a></ul>
+            <ul><a href="./admin.html">Admin Log In</a></ul>
+            <ul><a href="./signin.html">Register</a></ul>
+            <ul><a href="./login.html">Student Log In</a></ul>
+        </nav>
+    </div>
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Registration Form</h2>
+                        <form method="POST" class="register-form" id="register-form" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Full Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="number" name="mobile" id="pass" placeholder="Mobile Number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="ID-Proof"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="text" name="ID-Proof" id="re_pass" placeholder="Provide Class"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="ID-Proof"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="text" name="ID-Proof" id="re_pass" placeholder="Provide Year"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="ID-Proof"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="text" name="ID-Proof" id="re_pass" placeholder="User Id"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="ID-Proof"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="text" name="ID-Proof" id="re_pass" placeholder="Department"/>
+                            </div>
+                
+                            
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="./../images/signup-image.jpg" alt="sing up image"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
